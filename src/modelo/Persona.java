@@ -13,10 +13,8 @@ public class Persona {
     
     private int id;
     private String cedula;
-    private String primernombre;
-    private String segundonombre;
-    private String primerapellido;
-    private String segundoapellido;
+    private String nombre;
+    private String apellido;
     private String sexo;
     private String correo;
     private String pais;
@@ -53,59 +51,31 @@ public class Persona {
     }
 
     /**
-     * @return the primernombre
+     * @return the nombre
      */
-    public String getPrimernombre() {
-        return primernombre;
+    public String getNombre() {
+        return nombre;
     }
 
     /**
-     * @param primernombre the primernombre to set
+     * @param nombre the nombre to set
      */
-    public void setPrimernombre(String primernombre) {
-        this.primernombre = primernombre;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     /**
-     * @return the segundonombre
+     * @return the apellido
      */
-    public String getSegundonombre() {
-        return segundonombre;
+    public String getApellido() {
+        return apellido;
     }
 
     /**
-     * @param segundonombre the segundonombre to set
+     * @param apellido the apellido to set
      */
-    public void setSegundonombre(String segundonombre) {
-        this.segundonombre = segundonombre;
-    }
-
-    /**
-     * @return the primerapellido
-     */
-    public String getPrimerapellido() {
-        return primerapellido;
-    }
-
-    /**
-     * @param primerapellido the primerapellido to set
-     */
-    public void setPrimerapellido(String primerapellido) {
-        this.primerapellido = primerapellido;
-    }
-
-    /**
-     * @return the segundoapellido
-     */
-    public String getSegundoapellido() {
-        return segundoapellido;
-    }
-
-    /**
-     * @param segundoapellido the segundoapellido to set
-     */
-    public void setSegundoapellido(String segundoapellido) {
-        this.segundoapellido = segundoapellido;
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
     /**
@@ -191,5 +161,7 @@ public class Persona {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+
+
     
 }
